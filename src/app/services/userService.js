@@ -4,12 +4,15 @@ const headers = {
 };
 export const validatePayload = (userInfo) => {
   let isValidForm = !Object.keys(userInfo).some((userInfoKey) => {
-    return (
+    let isInvalid =
       userInfoKey !== "_id" &&
       (!userInfo[userInfoKey] ||
         userInfo[userInfoKey] === "" ||
-        userInfo[userInfoKey].length === 0)
-    );
+        userInfo[userInfoKey].length === 0);
+    if (userInfoKey === "confirmPassword" && !isInvalid) {
+      isInvalid = !isInvalid && userInfo[userInfoKey] !== userInfo["password"];
+    }
+    return isInvalid;
   });
   return isValidForm;
 };
