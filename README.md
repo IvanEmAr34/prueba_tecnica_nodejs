@@ -1,18 +1,18 @@
-# Technical test Front-End with nextjs
-This branch is the front-end of project used as technical test, its back-end is in this URL: https://github.com/IvanEmAr34/prueba_tecnica_expressjs_mongodb
+# Technical test Front-End with NEXTJS
+This branch is the front-end of the project used as a technical test, its back-end is in this URL: https://github.com/IvanEmAr34/prueba_tecnica_expressjs_mongodb
 
 ## Meets the following points:
-- Create new user
-    - Validate info after save.
-    - Show info messages to user in case of success or error.
+- Create a new user
+    - Validate info after saving.
+    - Show info messages to the user in case of success or error.
     - UX to add new users
 - Update a specific user
-    - Validate info after save.
-    - Show info messages to user in case of success or error.
+    - Validate info after saving.
+    - Show info messages to the user in case of success or error.
     - reused create component
 - List of all users created
     - Use of a table to show the users
-    - option to select an specific user to modify.
+    - option to select a specific user to modify.
 - Unit testing with JEST.
 - Mui styles to build fast user interfaces.
 
