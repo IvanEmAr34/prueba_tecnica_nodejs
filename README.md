@@ -1,4 +1,4 @@
-# Technical test Front-End with NEXTJS
+# Technical test Front-End with NextJs
 This branch is the front-end of the project used as a technical test, its back-end is in this URL: https://github.com/IvanEmAr34/prueba_tecnica_expressjs_mongodb
 
 ## Meets the following points:
