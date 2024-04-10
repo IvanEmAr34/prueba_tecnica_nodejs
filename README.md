@@ -1,7 +1,7 @@
 # Technical test Front-End with nextjs
 This branch is the front-end of project used as technical test, its back-end is in this URL: https://github.com/IvanEmAr34/prueba_tecnica_expressjs_mongodb
 
-# Meets the following points:
+## Meets the following points:
 - Create new user
     - Validate info after save.
     - Show info messages to user in case of success or error.
